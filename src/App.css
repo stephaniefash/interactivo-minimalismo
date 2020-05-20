@@ -10,7 +10,11 @@
   padding-top: 10px;
 }
 
-.single-link {
+#text-right{
+  padding-top: 20px;
+}
+
+.links {
   text-decoration: none;
   color: black;
 }
@@ -18,7 +22,7 @@
 #text-left li,
 #text-right li {
   display: inline;
-  padding-left: 30px;
+  margin-left: 30px;
   font-family: Manrope, sans-serif;
   font-size: 14px;
 }
@@ -31,7 +35,7 @@
 #text-right {
   right: 0;
   position: fixed;
-  top: 50%;
+  top: 45%;
 }
 
 .side-text-left {
@@ -39,7 +43,36 @@
   transform: rotate(-90deg) translateY(50%);
 }
 .side-text-right {
-  background: lightblue;
   transform-origin: top right;
   transform: rotate(90deg) translateX(50%);
 }
+
+.single-link{
+  color:black;
+  font-family: Manrope, sans-serif;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
+}
+
+.single-link:after {
+  width: 0;
+  height: 1px;
+  background: black;
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: all .25s ease-in-out;
+}
+.single-link:hover {
+  color: black;
+}
+.single-link:hover:after {
+  width: 100%;
+}
+
