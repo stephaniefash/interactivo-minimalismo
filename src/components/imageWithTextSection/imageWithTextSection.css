@@ -1,0 +1,30 @@
+.image-with-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-with-text-container > div{
+    position: relative;
+    padding-left: 8px;
+}
+
+.image-with-text-container  > img{
+    padding-top: 250px;
+    width: 700px;
+    height: auto;
+    z-index: 1;
+}
+
+.image-with-text-container > div > h1 {
+    position: absolute;
+    font-size: 300px;
+    font-family: Manrope,sans-serif;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    display: flex;
+    align-items: center;
+}

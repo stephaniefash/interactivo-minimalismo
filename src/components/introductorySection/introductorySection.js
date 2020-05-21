@@ -2,17 +2,18 @@ import React from "react";
 import "./introductorySection.css";
 
 const listOfTitles = [
-  "Artisan",
-  "designer",
-  "indépendent.",
-  "creating",
+  "Artisan.",
+  "designer.",
+  "indépendent",
+  "model.",
   "interactive",
-  "unique",
+  "creator.",
+  "crafting unique",
   "experiences",
   "for clients",
 ];
 
-const highlightedTitles = ["Artisan", "designer", "interactive", "experiences"];
+const highlightedTitles = ["Artisan.", "designer.","model.", "interactive", "experiences"];
 
 const showSingleText = (title) => {
   const whiteText = (
