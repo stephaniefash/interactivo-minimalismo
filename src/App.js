@@ -1,4 +1,5 @@
 import React from "react";
+import MainSection from '../src/components/mainSection/mainSection'
 import "./App.css";
 
 const links = ["contacts", "creations", "about", "John Doe"];
@@ -14,6 +15,8 @@ function App() {
         <li id="text-left" className="side-text-left list-item">
             <ul><a href="www.google.com" className="links">{showLinks(links)}</a></ul>
         </li>
+
+        <MainSection/>
 
         <li id="text-right" className="side-text-right list-item">
             <ul><a href="www.google.com" className="links">{showLinks(rightLinks)}</a></ul>

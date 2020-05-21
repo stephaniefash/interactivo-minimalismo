@@ -1,0 +1,14 @@
+.introduction-section-container{
+    background-color: black;
+    color: #505050;
+    width: 100vw;
+    padding: 240px 0 500px 300px;
+    letter-spacing: 3px;
+    align-items: flex-start;
+    font-size: 76px;
+}
+
+
+.selected-whitened-text{
+    color: white;
+}
