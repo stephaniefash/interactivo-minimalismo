@@ -1,0 +1,19 @@
+.header-and-paragraph-container{
+    font-family: Manrope, sans-serif;
+}
+
+.header-and-paragraph-container > h1{
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.header-and-paragraph-container > p{
+    color: #A4A4A4;
+    font-size: 15px;
+}
+
+.header-and-paragraph-container > p > span{
+    color: black;
+}
+
